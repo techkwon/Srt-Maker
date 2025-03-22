@@ -196,7 +196,7 @@ class GeminiAPIHandler:
             print("Gemini API에 파일 업로드 중...")
             
             # 최신 API 사용 (2024년 3월 기준)
-            file_data = genai.upload_file(file_path=video_path)
+            file_data = genai.upload_file(path=video_path)
             print(f"파일 업로드 성공. 파일 ID: {file_data.name if hasattr(file_data, 'name') else '알 수 없음'}")
             
             # 파일 상태 확인 및 대기
