@@ -1,0 +1,31 @@
+# 환경 변수 파일
+.env
+
+# 임시 디렉토리
+temp/
+__pycache__/
+
+# 시스템 파일
+.DS_Store
+Thumbs.db
+
+# 개발 환경 파일
+.vscode/
+.idea/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.streamlit/secrets.toml
+
+# Logs
+*.log
+
+# Other
+*.swp
+*.swo 
